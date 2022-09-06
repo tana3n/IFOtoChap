@@ -20,7 +20,7 @@ void usage() {
     std::cout << "Usage: " + appname + " [options] <input> \n";
 
     std::cout << "--chapter \tOutput Nero's Chapter Sheet.\n";
-    std::cout << "--cue \tOutput cue Sheet.\n";
+    std::cout << "--cue \t\tOutput cue Sheet.\n";
 
     return;
 }
