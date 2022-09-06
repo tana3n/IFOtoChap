@@ -17,7 +17,7 @@ std::string Version = "1.0.0";
 
 void usage() {
     std::cout << appname << " Version " << Version << "\n\n";
-    std::cout << "Usage: " + appname + "[options] <input> \n";
+    std::cout << "Usage: " + appname + " [options] <input> \n";
 
     std::cout << "--chapter \tOutput Nero's Chapter Sheet.\n";
     std::cout << "--cue \tOutput cue Sheet.\n";
