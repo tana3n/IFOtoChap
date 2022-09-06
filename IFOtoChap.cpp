@@ -1,7 +1,4 @@
-﻿// IFOtoChap.cpp : このファイルには 'main' 関数が含まれています。プログラム実行の開始と終了がそこで行われます。
-//
-
-#include <iostream>
+﻿#include <iostream>
 #include <fstream>
 #include <sstream>
 
@@ -15,14 +12,14 @@
 
 using namespace std::filesystem;
 
-std::string appname = "IfoDumpCell";
+std::string appname = "IFOtoChap";
 std::string Version = "1.0.0";
 
 void usage() {
     std::cout << appname << " Version " << Version << "\n\n";
     std::cout << "Usage: " + appname + "[options] <input> \n";
 
-    std::cout << "--chapter \ttOutput Nero's Chapter Sheet.\n";
+    std::cout << "--chapter \tOutput Nero's Chapter Sheet.\n";
     std::cout << "--cue \tOutput cue Sheet.\n";
 
     return;
